@@ -18,7 +18,7 @@ remoteControl.press(['channelup', 'record', 'select'])
 ```
 ### Sky Q (if firmware < 060)
 ```python
-remoteControl = SkyRemote('192.168.0.40')
+remoteControl = SkyRemote('192.168.0.40', SkyRemote.SKY_Q_LEGACY)
 ```
 ### Remote control commands
 `sky` `power`
